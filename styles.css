@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.logo:hover {
+    color: #FF5733;
+    text-shadow: 0 0 25px #FF5733,
+                 0 0 50px #FF5733;
+    transform: scale(1.1);
+}
+
+span {
+    color: #FF5733 ;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #FDFEFE ;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.port {
+    color: #FF5733;
+    border-bottom: 3px solid #FF5733;
+}
+
+.section {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(241, 241, 241);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.section-content {
+    max-width: 800px;
+}
+
+
+.section-content h1 {
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.section-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.btn {
+    width: 345px;
+    display: flex;
+    gap: 2em;
+}
+
+.btn-1 {
+    padding: 15px 28px;
+    background-color: #0A0909;
+    color: #FDFEFE;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: #FDFEFE;
+    color: #0A0909;
+    border: 2px solid #0A0909;
+}
+
+.btn-2 {
+    padding: 15px 28px;
+    background-color: #FF5733;
+    color: #FDFEFE;
+    border: 2px solid #0A0909;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-2:hover {
+    background-color: #FDFEFE;
+    color: #FF5733;
+}
+
+.image img {
+    border-radius: 50%;
+    width: 550px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF5733;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
